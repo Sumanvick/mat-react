@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.cursor{
+    cursor : pointer;
+}
+.padding-left-0{
+    padding-left: 0;
+}
+.padding-right-0{
+    padding-right: 0;
+}
+.content{
+    // min-height: 400px;
+    min-height: 480px;
+}
+.content-week-view{
+    height: 380px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.border-dashed{
+    border: 1px dashed #ccc;
+}
+.border-left-dashed{
+    border-left: 1px dashed #ccc;
+}
+.border-left-none{
+    border-left: none;
+}
+.height-100{
+    height: 100%;
+}
+.left-body{
+    background-color: #eee;
+}
+.padding-15{
+    padding: 15px;
+}
+.padding-10{
+    padding: 10px;
+}
+.padding-4{
+    padding: 4px;
+}
+.padding-left-right-15{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-left-15 {
+    padding-left: 15px;
+}
+.padding-bottom-0{
+    padding-bottom: 0;
+}
+.border-solid-grey{
+    border: 1px solid #e1e1e1;
+}
+.border-bottom-grey{
+    border-bottom: 1px solid #e1e1e1;
+}
+.height-50{
+    height: 50px;
+}
+.width-7p{
+    width: 6%;
+}
+.width-13p{
+    // width: 13.425%;
+    width: 14.285%;
+}
+.width-20p{
+    width: 20%;
+}
+.width-80p{
+    width: 80%;
+}
+.text-align-center{
+    text-align: center;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.time-slot{
+    height: 42px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border-left: 3px solid#42A5F5;
+}
+.time-slot.selected,.time-slot:hover{
+    cursor: pointer;
+    background-color: #42A5F5;
+    color: #fff;
+}
+.time-slot.disabled{
+    // cursor: pointer;
+    background-color: #fcfcfc;
+    color: #ccc;
+    border-left: 0;
+}
+.background-light-grey{
+    background-color: #f7f7f7;
+}
+p{
+    margin:0;
+}
+.status-tile{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.circle-btn{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    background-color: #fff;
+}
+.padding-top-bottom-9{
+    padding: 9px 0;
+}
+.icon-center{
+    position: relative;
+    line-height: 1.8;
+    left: 9px;
+}
+/*
+ *  Scrollbar Style
+ */
+.scrollbar::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb{
+	background-color: #000000;
+}
